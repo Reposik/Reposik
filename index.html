@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPOSIK | OFFICIAL SITE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --red: #ff003c;
+            --black: #000000;
+            --dark-grey: #121212;
+        }
+
+        body {
+            background-color: var(--black);
+            color: white;
+            font-family: 'Dela Gothic One', cursive;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        /* Навигация */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            border-bottom: 2px solid var(--red);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 20px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--red);
+            text-shadow: 0 0 10px var(--red);
+        }
+
+        /* Общие секции */
+        section {
+            padding: 120px 20px;
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: var(--red);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        /* Секция HOME */
+        .bio-container {
+            max-width: 900px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .artist-photo {
+            width: 300px;
+            height: 300px;
+            border: 4px solid var(--red);
+            box-shadow: 0 0 20px var(--red);
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .bio-text {
+            flex: 1;
+            min-width: 300px;
+            line-height: 1.6;
+            text-align: left;
+        }
+
+        /* Анонс релиза */
+        .new-release {
+            margin-top: 60px;
+            background: var(--dark-grey);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid var(--red);
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .release-title {
+            color: var(--red);
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        /* Секция RELEASES */
+        #releases .soon-box {
+            font-size: 5rem;
+            color: var(--red);
+            text-shadow: 0 0 30px var(--red);
+            margin-top: 100px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.5; transform: scale(0.95); }
+            50% { opacity: 1; transform: scale(1); }
+            100% { opacity: 0.5; transform: scale(0.95); }
+        }
+
+        footer {
+            padding: 40px;
+            border-top: 1px solid #333;
+            font-size: 0.8rem;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#releases">RELEASES</a>
+    </nav>
+
+    <section id="home">
+        <h1>REPOSIK</h1>
+        <div class="bio-container">
+            <img src="https://i.ibb.co/Xz9Z4W8/sliderao-funk-art.jpg" alt="REPOSIK" class="artist-photo">
+            <div class="bio-text">
+                <h2>BIO</h2>
+                <p>
+                    REPOSIK — артист, разрывающий границы жанров. От глубокого андеграунда до футуристичного звучания. 
+                    Каждый трек — это манифест свободы и цифрового хаоса. Вне системы, вне стен. 
+                    Голос тех, кто слышит код в тишине.
+                </p>
+            </div>
+        </div>
+
+        <div class="new-release">
+            <div class="release-title">NEW RELEASE ANNOUNCEMENT</div>
+            <p style="font-size: 1.8rem;">REPOSIK - SLIDERAO FUNK</p>
+            <p style="color: #888;">COMING TO DESTROY YOUR SPEAKERS</p>
+        </div>
+    </section>
+
+    <section id="releases">
+        <h1>RELEASES</h1>
+        <div class="soon-box">SOON</div>
+    </section>
+
+    <footer>
+        &copy; 2026 REPOSIK. ALL RIGHTS RESERVED. T4 SYSTEM ACTIVE.
+    </footer>
+
+</body>
+</html>
