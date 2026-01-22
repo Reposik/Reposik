@@ -6,3 +6,15 @@ https://reposik.github.io/reposik
 
 RU:
 REPOSIK — артист, разрывающий границы жанров. От глубокого андеграунда до футуристичного звучания. Каждый трек — это манифест свободы и цифрового хаоса. Вне системы, вне стен. Голос тех, кто слышит код в тишине.
+
+LAST RELEASE INFO:
+Name:SLIDERAO FUNK
+Artist:REPOSIK
+Label:LH RECORDS
+Distributor:?????? (kedoo ltd maybe)
+Date of out:??.01
+
+REPOSIK BIO:
+Ai Sultan Zhainak
+?? years old
+Kazakhstan
